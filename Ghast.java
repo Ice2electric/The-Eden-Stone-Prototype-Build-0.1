@@ -26,7 +26,7 @@ public class Ghast extends Actor
         }
 
         move(5);
-        lookForWorm();
+        //lookForWorm();
     }
     public void lookForWorm()
     {

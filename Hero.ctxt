@@ -14,5 +14,5 @@ comment4.target=void\ switchImageUp()
 comment5.params=
 comment5.target=void\ switchImageRight()
 comment6.params=
-comment6.target=void\ checkChestCollision()
+comment6.target=boolean\ checkChangeWorld()
 numComments=7

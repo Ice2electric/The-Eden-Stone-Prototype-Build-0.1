@@ -8,6 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Hero extends Actor
 {
+    public boolean W1RM2 = false;
     private GreenfootImage image1;
     private GreenfootImage image2;
     private GreenfootImage image3;
@@ -29,8 +30,7 @@ public class Hero extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
-public void act()
-
+    public void act()
     {
         // Add your amction code here.
         // in act method, use:
@@ -95,10 +95,15 @@ public void act()
             setImage(image4);
         }
     }
-    private void checkChestCollision() 
+    
+      public boolean checkChangeWorld()
     {
-      
+        if (isTouching(Chest.class)) 
+        {
+            boolean W1RM2 = true;
+            
+       }
+        return W1RM2;
     }
-
-    }
+}
 

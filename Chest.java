@@ -14,6 +14,7 @@ public class Chest extends Actor
      */
     public void act() 
     {
-        
+     int dC = 0;
+     dC++;
     }    
 }
